@@ -1,9 +1,7 @@
 package com.example.katalogjamtangan6
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 class TambahActivity : AppCompatActivity() {
@@ -18,19 +16,21 @@ class TambahActivity : AppCompatActivity() {
         val btnSimpan = findViewById<Button>(R.id.btnSimpan)
 
         btnSimpan.setOnClickListener {
+
             val nama = etNama.text.toString()
             val brand = etBrand.text.toString()
-            val hargaStr = etHarga.text.toString()
+            val harga = etHarga.text.toString()
 
-            if (nama.isNotEmpty() && brand.isNotEmpty() && hargaStr.isNotEmpty()) {
-                val harga = hargaStr.toInt()
-                val jamBaru = Jam(nama, brand, harga)
-                JamData.listJam.add(jamBaru)
-                
-                Toast.makeText(this, "Jam berhasil ditambahkan!", Toast.LENGTH_SHORT).show()
-                finish() // Close activity and go back
+            // VALIDASI IF ELSE
+            if (nama.isEmpty() || brand.isEmpty() || harga.isEmpty()) {
+                Toast.makeText(this, "Semua data harus diisi!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Mohon isi semua data", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Data berhasil disimpan!", Toast.LENGTH_SHORT).show()
+
+                // BONUS: kosongin input
+                etNama.text.clear()
+                etBrand.text.clear()
+                etHarga.text.clear()
             }
         }
     }
