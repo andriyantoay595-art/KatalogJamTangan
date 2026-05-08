@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
         val btnLihat = findViewById<Button>(R.id.btnLihat)
         val btnTambah = findViewById<Button>(R.id.btnTambah)
 
-        btnLihat.setOnClickListener {
-            val intent = Intent(this, ListActivity::class.java)
+        btnLihat.setOnClickListener { _ ->
+            val intent = Intent(this@MainActivity, ListActivity::class.java)
             startActivity(intent)
         }
 
-        btnTambah.setOnClickListener {
-            val intent = Intent(this, TambahActivity::class.java)
+        btnTambah.setOnClickListener { _ ->
+            val intent = Intent(this@MainActivity, TambahActivity::class.java)
             startActivity(intent)
         }
     }

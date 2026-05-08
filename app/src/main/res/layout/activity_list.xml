@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:padding="16dp"
     android:background="#F5F5F5"
-    android:padding="24dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -9,14 +10,46 @@
         android:text="Daftar Jam Tangan"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_marginBottom="20dp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <TextView
-        android:text="(Data akan muncul di minggu 3)"
-        android:textColor="#888"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etSearch"
+        android:hint="Cari jam..."
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAZ"
+            android:text="A-Z"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnZA"
+            android:text="Z-A"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewJam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
