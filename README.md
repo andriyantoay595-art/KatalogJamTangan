@@ -17,11 +17,17 @@ Aplikasi ini juga dilengkapi fitur pencarian untuk memudahkan pengguna menemukan
   Screenshot Aplikasi
 
  Tampilan Portrait
+ 
+
+ 
  <img width="200"  alt="image" src="https://github.com/user-attachments/assets/edd004ae-93b7-4c5f-81a0-79ceb9956570" />
 
 
 
  Tampilan Landscape
+
+
+ 
  <img width="450"  alt="image" src="https://github.com/user-attachments/assets/7e97eb7e-b143-4bf8-987b-6ea344814b2c" />
 
 
@@ -34,18 +40,28 @@ Aplikasi ini juga dilengkapi fitur pencarian untuk memudahkan pengguna menemukan
 Tampilan Pencarian
 
 
-
 <img width="450"  alt="image" src="https://github.com/user-attachments/assets/bec11048-6ba6-4014-b575-734a593a8fd3" />
+
+
+
 
 
 
 Tampilan urutan A - Z
 
+
+
 <img width="450"  alt="image" src="https://github.com/user-attachments/assets/f5648d33-37e4-4505-96fb-91f8728a562b" />
 
 
 
+
+
+
 Tampilan urutan Z - A
+
+
+
 <img width="600"  alt="image" src="https://github.com/user-attachments/assets/a0020939-7f09-448c-8881-bfaa2bb5da05" />
 
 
