@@ -45,6 +45,8 @@ Tampilan urutan A - Z
 
 
 
+Tampilan urutan Z - A
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/a0020939-7f09-448c-8881-bfaa2bb5da05" />
 
 
 
