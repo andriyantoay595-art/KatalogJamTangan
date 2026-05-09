@@ -29,7 +29,12 @@ Aplikasi ini juga dilengkapi fitur pencarian untuk memudahkan pengguna menemukan
 ---
 
   Pencarian & Pengurutan Data
-Screenshot hasil pencarian dan pengurutan data:
+Tampilan Pencarian
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/bec11048-6ba6-4014-b575-734a593a8fd3" />
+
+
+
 
 
 
