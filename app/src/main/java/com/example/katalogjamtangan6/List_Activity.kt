@@ -11,6 +11,7 @@ class ListActivity : AppCompatActivity() {
 
     private lateinit var listViewJam: ListView
     private lateinit var etSearch: EditText
+    private lateinit var btnSearch: Button
     private lateinit var btnAZ: Button
     private lateinit var btnZA: Button
 
@@ -36,13 +37,14 @@ class ListActivity : AppCompatActivity() {
 
         listViewJam = findViewById(R.id.listViewJam)
         etSearch = findViewById(R.id.etSearch)
+        btnSearch = findViewById(R.id.btnSearch)
         btnAZ = findViewById(R.id.btnAZ)
         btnZA = findViewById(R.id.btnZA)
 
         tampilkanData(dataJam)
 
         // SEARCH
-        etSearch.setOnEditorActionListener { _, _, _ ->
+        btnSearch.setOnClickListener {
 
             try {
 
@@ -70,8 +72,6 @@ class ListActivity : AppCompatActivity() {
 
                 Log.e("42430002", "Error Search: ${e.message}")
             }
-
-            true
         }
 
         // SORT A-Z BUBBLE SORT
