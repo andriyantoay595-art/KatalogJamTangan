@@ -17,6 +17,8 @@ Aplikasi ini juga dilengkapi fitur pencarian untuk memudahkan pengguna menemukan
   Screenshot Aplikasi
 
  Tampilan Portrait
+ <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/edd004ae-93b7-4c5f-81a0-79ceb9956570" />
+
 
 
  Tampilan Landscape
