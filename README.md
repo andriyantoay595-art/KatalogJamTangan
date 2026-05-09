@@ -56,5 +56,8 @@ Tampilan urutan Z - A
   Logcat Android Studio
 Berikut tampilan Logcat yang menampilkan NIM:
 
+<img width="1669" height="950" alt="image" src="https://github.com/user-attachments/assets/8f66e972-bb3e-4231-88ec-044dd6add019" />
+
+
 
 
