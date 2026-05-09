@@ -22,6 +22,8 @@ Aplikasi ini juga dilengkapi fitur pencarian untuk memudahkan pengguna menemukan
 
 
  Tampilan Landscape
+ <img width="2400" height="1080" alt="image" src="https://github.com/user-attachments/assets/7e97eb7e-b143-4bf8-987b-6ea344814b2c" />
+
 
 
 ---
